@@ -1,6 +1,6 @@
 {
   "name": "ezhbserver",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "bin": "./index",
   "main": "index.js",
   "repository": "https://github.com/heyset/easy_handlebars_server.git",

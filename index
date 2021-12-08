@@ -2,10 +2,10 @@
 # npx nodemon server.js $1 -e handlebars
 if [ `npm list -g | grep -c ezhbserver` -eq 0 ]; then
   path=./node_modules/ezhbserver
+  npx nodemon $path/server.js $1 -e handlebars
 else
   path=`npm list -g | head -n 1`/node_modules/ezhbserver
+  node $path/node_modules/nodemon/bin/nodemon.js $path/server.js $1 -e handlebars
 fi
 
-echo $path
-
-node $path/node_modules/nodemon/bin/nodemon.js $path/server.js $1 -e handlebars
+# echo $path

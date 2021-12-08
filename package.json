@@ -1,6 +1,6 @@
 {
   "name": "easy_handlebars_server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "./index.js",
   "main": "index.js",
   "repository": "https://github.com/heyset/easy_handlebars_server.git",

@@ -8,4 +8,4 @@ fi
 
 echo $path
 
-node $path/node_modules/nodemon/nodemon.js $path/server.js $1 -e handlebars
+node $path/node_modules/nodemon/bin/nodemon.js $path/server.js $1 -e handlebars

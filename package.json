@@ -1,5 +1,5 @@
 {
-  "name": "easy_handlebars_server",
+  "name": "ezhbserver",
   "version": "1.0.3",
   "bin": "./index",
   "main": "index.js",

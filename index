@@ -1,0 +1,3 @@
+#! /bin/bash
+npx nodemon server.js $1 -e handlebars
+
